@@ -27,6 +27,8 @@ void loop()
 {
   response = "";
   data = readTemperature();
+  Serial.println(data);
+  
 
 
   response = String((int) data);
